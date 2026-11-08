@@ -1,0 +1,10 @@
+{
+  "framework": "flask",
+  "buildCommand": "python migrate.py",
+  "functions": {
+    "server.py": {
+      "maxDuration": 120,
+      "excludeFiles": "{backend/migrations/**,dataset/processed/**,**/__pycache__/**}"
+    }
+  }
+}

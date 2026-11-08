@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: churnguard
+      POSTGRES_USER: churnguard
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your environment}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U churnguard]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    ports: ['127.0.0.1:5432:5432']
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://churnguard:${POSTGRES_PASSWORD}@db:5432/churnguard
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?Set JWT_SECRET_KEY in your environment}
+      FRONTEND_ORIGIN: http://localhost:5173
+    ports: ['127.0.0.1:5000:5000']
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  postgres_data:

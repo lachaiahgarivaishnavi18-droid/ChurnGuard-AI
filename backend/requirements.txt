@@ -1,0 +1,19 @@
+Flask>=3.1,<4
+Flask-Cors>=6,<7
+Flask-SQLAlchemy>=3.1,<4
+Flask-JWT-Extended>=4.7,<5
+Flask-Limiter>=4,<5
+Flask-Migrate>=4,<5
+psycopg[binary]>=3.2,<4
+pandas>=2.2,<3
+numpy>=2,<3
+scikit-learn>=1.6,<2
+xgboost>=3,<4
+shap>=0.48,<1
+langgraph>=1,<2
+requests>=2.32,<3
+python-dotenv>=1,<2
+pydantic>=2.7,<3
+joblib>=1.4,<2
+pytest>=8,<10
+gunicorn>=23; sys_platform != 'win32'

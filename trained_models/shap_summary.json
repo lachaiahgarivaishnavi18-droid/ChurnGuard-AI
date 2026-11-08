@@ -1,0 +1,2289 @@
+{
+  "sample_size": 40,
+  "scope": "40 randomly sampled held-out test customers; descriptive approximate Kernel SHAP",
+  "model_version": "ee2a5c9d8daf-v1",
+  "rows": [
+    {
+      "factors": [
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": 0.1600689235984432
+        },
+        {
+          "feature": "Age",
+          "value": 47,
+          "contribution": 0.15089952635096934
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.11794144172880675
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.047512341563788356
+        },
+        {
+          "feature": "Balance",
+          "value": 106854.21,
+          "contribution": 0.010174340786186694
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 157959.02,
+          "contribution": -0.006373054061749271
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": 0.0028825281388926787
+        },
+        {
+          "feature": "Tenure",
+          "value": 7,
+          "contribution": -0.0017325911917361618
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.0016216821531346006
+        },
+        {
+          "feature": "CreditScore",
+          "value": 668,
+          "contribution": -0.0011403581338855773
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.5719665393064226
+    },
+    {
+      "factors": [
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": 0.11739274473921257
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.07915436297974754
+        },
+        {
+          "feature": "Balance",
+          "value": 122265.24,
+          "contribution": 0.05985147306428412
+        },
+        {
+          "feature": "Age",
+          "value": 40,
+          "contribution": -0.04267276447557262
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.02594535746677585
+        },
+        {
+          "feature": "Tenure",
+          "value": 7,
+          "contribution": -0.007106256779740017
+        },
+        {
+          "feature": "CreditScore",
+          "value": 567,
+          "contribution": 0.006414745669548714
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 138552.74,
+          "contribution": 0.0021300947981154257
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.0014408342323484304
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0014246572743724373
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.42338070745679945
+    },
+    {
+      "factors": [
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": 0.18463601104160748
+        },
+        {
+          "feature": "Age",
+          "value": 46,
+          "contribution": 0.17889730085972586
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.13178222441318724
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 33450.11,
+          "contribution": 0.029418668069775257
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.02727840264314849
+        },
+        {
+          "feature": "Balance",
+          "value": 137367.94,
+          "contribution": 0.00904335261195752
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.004960918030671826
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0018727829946683
+        },
+        {
+          "feature": "CreditScore",
+          "value": 576,
+          "contribution": -0.0017128639234487498
+        },
+        {
+          "feature": "Tenure",
+          "value": 4,
+          "contribution": -0.0004202157028581621
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.6826688152026066
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 34,
+          "contribution": -0.08090151212684041
+        },
+        {
+          "feature": "Balance",
+          "value": 141525.55,
+          "contribution": -0.03305612096847206
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.030751132196360262
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.02801233031961094
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.01962887528605647
+        },
+        {
+          "feature": "CreditScore",
+          "value": 594,
+          "contribution": -0.00276826153902505
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 9443.15,
+          "contribution": -0.0027284452159562944
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": -0.0018215415664260793
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.0005783549840116687
+        },
+        {
+          "feature": "Tenure",
+          "value": 7,
+          "contribution": 0.0003910703257761494
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.08719766255702244
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.06845192278227417
+        },
+        {
+          "feature": "Age",
+          "value": 38,
+          "contribution": -0.029160423359170552
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.008248194007493681
+        },
+        {
+          "feature": "CreditScore",
+          "value": 834,
+          "contribution": -0.004588871067245742
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 66485.26,
+          "contribution": -0.0026683747113647343
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.0016636551845116475
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.0013313221614393007
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.001168554743488462
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0008670208114170269
+        },
+        {
+          "feature": "Tenure",
+          "value": 8,
+          "contribution": -0.00045927255321829663
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.06826287174235915
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 66,
+          "contribution": 0.407169550543443
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.22238020286106872
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.04090743481198356
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.017857305982931355
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 183840.51,
+          "contribution": -0.013111378125377207
+        },
+        {
+          "feature": "Balance",
+          "value": 135842.41,
+          "contribution": -0.0120022253539389
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.005731883327401026
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": -0.0017033183865799995
+        },
+        {
+          "feature": "Tenure",
+          "value": 1,
+          "contribution": 0.0016497097478370198
+        },
+        {
+          "feature": "CreditScore",
+          "value": 616,
+          "contribution": 0.0012661676009851984
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.8195671625450397
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.08637545531421513
+        },
+        {
+          "feature": "Age",
+          "value": 41,
+          "contribution": -0.04764192492914893
+        },
+        {
+          "feature": "Balance",
+          "value": 200117.76,
+          "contribution": 0.029555582705050158
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.02557330019733077
+        },
+        {
+          "feature": "CreditScore",
+          "value": 699,
+          "contribution": -0.008003583319967058
+        },
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": -0.006067990172504341
+        },
+        {
+          "feature": "Tenure",
+          "value": 1,
+          "contribution": 0.004120076591130061
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.0019530724026254956
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0011737540063646301
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 94142.35,
+          "contribution": -0.0010859087007377944
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.09833736496707657
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 25,
+          "contribution": -0.09864106692252342
+        },
+        {
+          "feature": "Balance",
+          "value": 162560.32,
+          "contribution": -0.027136116755105272
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.027123298468153402
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.013327559005876344
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.010857037117341269
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 64129.03,
+          "contribution": -0.0036632557243628447
+        },
+        {
+          "feature": "CreditScore",
+          "value": 530,
+          "contribution": 0.0016144723654942985
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0007869665072372566
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.000581581353443283
+        },
+        {
+          "feature": "Tenure",
+          "value": 9,
+          "contribution": 0.0004987528894764559
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.08719766255702245
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 28,
+          "contribution": -0.06873875658476929
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.05049662015716806
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.024794594509675763
+        },
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": 0.018780958988263735
+        },
+        {
+          "feature": "CreditScore",
+          "value": 643,
+          "contribution": -0.005595794045663521
+        },
+        {
+          "feature": "Balance",
+          "value": 160858.13,
+          "contribution": -0.00393689545124177
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 27149.27,
+          "contribution": -0.0036434404223925727
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.0021250787911125777
+        },
+        {
+          "feature": "Tenure",
+          "value": 9,
+          "contribution": -0.00048367284537640927
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0004053797106201851
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.0940971164119842
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 30,
+          "contribution": -0.07701113236277048
+        },
+        {
+          "feature": "Balance",
+          "value": 174356.13,
+          "contribution": 0.05066666665224296
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.04631116794451541
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.03731987306388072
+        },
+        {
+          "feature": "CreditScore",
+          "value": 737,
+          "contribution": -0.004596859061155059
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.0034407515735061403
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 31928.5,
+          "contribution": -0.0024022900477455693
+        },
+        {
+          "feature": "Tenure",
+          "value": 8,
+          "contribution": -0.0010909233326435867
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": -0.0005315326350409151
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.0005149884716804595
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.2308756486206065
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.07170899034942135
+        },
+        {
+          "feature": "Age",
+          "value": 39,
+          "contribution": -0.027152787457459387
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.005532625292575432
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.004962538148387081
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.004192231904435768
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 27375.15,
+          "contribution": -0.0041728756795443986
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": 0.003747385007162459
+        },
+        {
+          "feature": "CreditScore",
+          "value": 521,
+          "contribution": -0.0013210475441150936
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": -0.0009006905397713079
+        },
+        {
+          "feature": "Tenure",
+          "value": 6,
+          "contribution": 0.0006358509392365153
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.07950096682861203
+    },
+    {
+      "factors": [
+        {
+          "feature": "CreditScore",
+          "value": 416,
+          "contribution": 0.2062704384626882
+        },
+        {
+          "feature": "Balance",
+          "value": 97738.97,
+          "contribution": 0.04943848850525302
+        },
+        {
+          "feature": "Age",
+          "value": 25,
+          "contribution": -0.036546323632176185
+        },
+        {
+          "feature": "Tenure",
+          "value": 0,
+          "contribution": 0.024929153853705213
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": 0.019994110742297524
+        },
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": 0.01582183660437437
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.01173534523536482
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 160523.33,
+          "contribution": 0.0038467187133446367
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.003202437034279714
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": -0.001362198349568411
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.45899575819998195
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.12746217864634293
+        },
+        {
+          "feature": "Age",
+          "value": 47,
+          "contribution": 0.05713728422521827
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.015596391372106841
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.00884988871748959
+        },
+        {
+          "feature": "CreditScore",
+          "value": 704,
+          "contribution": -0.008182866570569049
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.005560388047790459
+        },
+        {
+          "feature": "Tenure",
+          "value": 5,
+          "contribution": -0.004274061667370691
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.002199846019531392
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 145338.61,
+          "contribution": -0.002165079026840646
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0006601402532592643
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.07304285795064742
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.07291309055147839
+        },
+        {
+          "feature": "Age",
+          "value": 31,
+          "contribution": -0.05952002521900381
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.025576677270148708
+        },
+        {
+          "feature": "CreditScore",
+          "value": 564,
+          "contribution": -0.004787310747787474
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.004109202891837348
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 53520.03,
+          "contribution": -0.0033442520986049825
+        },
+        {
+          "feature": "Tenure",
+          "value": 4,
+          "contribution": 0.0014460981264879165
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": 0.0006977667809102854
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 7.976957237551541e-05
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.06826287174235914
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.10261202199689719
+        },
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": 0.03689006140378697
+        },
+        {
+          "feature": "Age",
+          "value": 41,
+          "contribution": -0.03012534826983331
+        },
+        {
+          "feature": "Balance",
+          "value": 103522.75,
+          "contribution": 0.011105486323749414
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.006818966290967231
+        },
+        {
+          "feature": "CreditScore",
+          "value": 564,
+          "contribution": -0.0034994116219348105
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 34338.21,
+          "contribution": -0.00340789348785024
+        },
+        {
+          "feature": "Tenure",
+          "value": 9,
+          "contribution": -0.0011195326996492764
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0007722741924114886
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.0006099561908491646
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.08538649685999072
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 50,
+          "contribution": 0.2406767813817656
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.1795786308221612
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.108792924862685
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": 0.0893973834855313
+        },
+        {
+          "feature": "CreditScore",
+          "value": 617,
+          "contribution": -0.011846682432974032
+        },
+        {
+          "feature": "Tenure",
+          "value": 7,
+          "contribution": -0.006623087972665784
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.005686385155878732
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 184839.7,
+          "contribution": 0.0026789557768680987
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": 0.001823494401733216
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0006712209090115051
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.7845996775793861
+    },
+    {
+      "factors": [
+        {
+          "feature": "Balance",
+          "value": 144470.77,
+          "contribution": -0.03188160870635305
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.02814101677959841
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.027430779023273854
+        },
+        {
+          "feature": "Age",
+          "value": 40,
+          "contribution": -0.017475651154379147
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.008115953341717235
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 18917.95,
+          "contribution": -0.0031022806253380437
+        },
+        {
+          "feature": "Tenure",
+          "value": 7,
+          "contribution": -0.0009898158188474124
+        },
+        {
+          "feature": "CreditScore",
+          "value": 559,
+          "contribution": -0.000322810372300687
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0002680807869893942
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": -0.00015355870944824997
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.12353691974210006
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.05093818237015292
+        },
+        {
+          "feature": "Age",
+          "value": 42,
+          "contribution": -0.022061973155562544
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.011165758110246306
+        },
+        {
+          "feature": "Balance",
+          "value": 129634.25,
+          "contribution": -0.006490690235108999
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.0049055308789718
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 177683.02,
+          "contribution": 0.0031488133843649625
+        },
+        {
+          "feature": "CreditScore",
+          "value": 459,
+          "contribution": 0.0020937793828843124
+        },
+        {
+          "feature": "Tenure",
+          "value": 6,
+          "contribution": 0.001831171164531741
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0009299024939329187
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": -0.0007315210741031678
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.0968464521027169
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.08777792908182747
+        },
+        {
+          "feature": "Age",
+          "value": 39,
+          "contribution": -0.07767991493969086
+        },
+        {
+          "feature": "Balance",
+          "value": 207034.96,
+          "contribution": 0.05455782956435526
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.03272138430360334
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 157694.76,
+          "contribution": 0.004236607362624095
+        },
+        {
+          "feature": "CreditScore",
+          "value": 684,
+          "contribution": -0.0026900445580615856
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.001081808868626851
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": 0.00047238549452399963
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.00014709746036124582
+        },
+        {
+          "feature": "Tenure",
+          "value": 4,
+          "contribution": -0.000114150845138411
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.10979732020980269
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 35,
+          "contribution": -0.05292171939242284
+        },
+        {
+          "feature": "Balance",
+          "value": 133868.21,
+          "contribution": -0.029652429804708513
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.02668947742228347
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.019512741148688416
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.00948538619857462
+        },
+        {
+          "feature": "CreditScore",
+          "value": 484,
+          "contribution": 0.0027870530361521727
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 27286.1,
+          "contribution": -0.002271016033044056
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.001028167004481351
+        },
+        {
+          "feature": "Tenure",
+          "value": 7,
+          "contribution": -0.0003919952089778993
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.00014528392656315559
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.0871976625570224
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 35,
+          "contribution": -0.0811129191043703
+        },
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": -0.033324769717845565
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.03263577000585001
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.008760607760605877
+        },
+        {
+          "feature": "CreditScore",
+          "value": 647,
+          "contribution": -0.005848358413890103
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.005458368174960362
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 40145.28,
+          "contribution": 0.0030453165387997953
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0028990146131443665
+        },
+        {
+          "feature": "Balance",
+          "value": 192407.97,
+          "contribution": 0.001633432445609928
+        },
+        {
+          "feature": "Tenure",
+          "value": 3,
+          "contribution": -0.0013260718794102946
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.09463758717710231
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.07573989702897102
+        },
+        {
+          "feature": "Age",
+          "value": 37,
+          "contribution": -0.0601979549213931
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.027672065195619284
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.004850964280746906
+        },
+        {
+          "feature": "CreditScore",
+          "value": 554,
+          "contribution": -0.0014601772933860483
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0012762515895746232
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 166177.3,
+          "contribution": 0.0005383064919273277
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.0003498722302538128
+        },
+        {
+          "feature": "Tenure",
+          "value": 3,
+          "contribution": -0.00028197931330325613
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.00012297921780916876
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.06931269574887573
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.06759161417000496
+        },
+        {
+          "feature": "Age",
+          "value": 32,
+          "contribution": -0.0634026174601983
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.027438502366317365
+        },
+        {
+          "feature": "CreditScore",
+          "value": 678,
+          "contribution": -0.0054403578122361445
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.002862299788263216
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.0021669361942540603
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0012588247479839827
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 90284.47,
+          "contribution": -0.0012451746689736468
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.0005779459378566081
+        },
+        {
+          "feature": "Tenure",
+          "value": 5,
+          "contribution": -5.4172097047930357e-05
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.07621725006314162
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 28,
+          "contribution": -0.06165596952234468
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.025166224406239744
+        },
+        {
+          "feature": "Balance",
+          "value": 105245.34,
+          "contribution": -0.020134339598411197
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.018775025636478166
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.009661999980422642
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 74780.13,
+          "contribution": -0.0014199149779161291
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.0013676834217111959
+        },
+        {
+          "feature": "CreditScore",
+          "value": 850,
+          "contribution": -0.0007411983751451951
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": 0.000698158858163947
+        },
+        {
+          "feature": "Tenure",
+          "value": 1,
+          "contribution": 0.0
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.08719766255702244
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 36,
+          "contribution": -0.042746009531618466
+        },
+        {
+          "feature": "Balance",
+          "value": 141334.95,
+          "contribution": -0.026985185323786902
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.026200422642533878
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.020917939243613206
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.008328749776779318
+        },
+        {
+          "feature": "CreditScore",
+          "value": 768,
+          "contribution": -0.003234151608960647
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.0020603230682888587
+        },
+        {
+          "feature": "Tenure",
+          "value": 3,
+          "contribution": -0.001087234432783873
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": -0.0008043554991825479
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 125870.5,
+          "contribution": -3.2109469961960624e-05
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.0986964855274432
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 23,
+          "contribution": -0.0725912101138376
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.05975271172116615
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.02761017312129567
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.0059201248633802975
+        },
+        {
+          "feature": "CreditScore",
+          "value": 578,
+          "contribution": -0.0026518416813895696
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.0019809909052044806
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 112124.98,
+          "contribution": -0.0009697119459823089
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": 0.0008830551663651702
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.00032687957471536023
+        },
+        {
+          "feature": "Tenure",
+          "value": 8,
+          "contribution": -0.0001235032342580683
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.06931269574887572
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.10620809115209204
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.032339119566127214
+        },
+        {
+          "feature": "CreditScore",
+          "value": 636,
+          "contribution": -0.012430559998031564
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.006111233679057849
+        },
+        {
+          "feature": "Age",
+          "value": 43,
+          "contribution": 0.004807596648282901
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 43128.95,
+          "contribution": -0.004349944748437823
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.0026065839057234394
+        },
+        {
+          "feature": "Tenure",
+          "value": 6,
+          "contribution": 0.0025657241764517613
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0024475868204480284
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.0007835292690605307
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.08991135231915932
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 40,
+          "contribution": -0.04880141548344615
+        },
+        {
+          "feature": "Balance",
+          "value": 165526.71,
+          "contribution": -0.03580068837103756
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.028151029097868825
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.024094626008893588
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.018048193638801
+        },
+        {
+          "feature": "CreditScore",
+          "value": 803,
+          "contribution": -0.006032706702467034
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 12328.08,
+          "contribution": -0.00415178542475172
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.001122635734520809
+        },
+        {
+          "feature": "Tenure",
+          "value": 6,
+          "contribution": 0.00033824985373197974
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": -0.0002260013645187692
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.12353691974210008
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.11757284606914158
+        },
+        {
+          "feature": "Age",
+          "value": 44,
+          "contribution": 0.0397162592612482
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.009678358445591966
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.009116921729942076
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.005926340672866932
+        },
+        {
+          "feature": "CreditScore",
+          "value": 613,
+          "contribution": -0.004150769152643421
+        },
+        {
+          "feature": "Tenure",
+          "value": 3,
+          "contribution": -0.002479077277565605
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.0024123199574566517
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 136491.72,
+          "contribution": -0.002112019293727675
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": -0.0011669701908226988
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.07506171788755163
+    },
+    {
+      "factors": [
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.08565871390715805
+        },
+        {
+          "feature": "Age",
+          "value": 72,
+          "contribution": 0.036290754613814556
+        },
+        {
+          "feature": "Balance",
+          "value": 140301.72,
+          "contribution": -0.0170216595988829
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.010124688484081688
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.008938015885268586
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 179258.67,
+          "contribution": 0.0045595706295543
+        },
+        {
+          "feature": "Tenure",
+          "value": 7,
+          "contribution": 0.0024837722877932215
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": 0.0007686049785429132
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.000695254925354033
+        },
+        {
+          "feature": "CreditScore",
+          "value": 662,
+          "contribution": -0.00035616175863113775
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.12571119107272255
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.053322942047182756
+        },
+        {
+          "feature": "Age",
+          "value": 30,
+          "contribution": -0.04429942929128442
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.008950916996925379
+        },
+        {
+          "feature": "CreditScore",
+          "value": 777,
+          "contribution": -0.006139623705826642
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.004193900958031322
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.004119033211476755
+        },
+        {
+          "feature": "Tenure",
+          "value": 4,
+          "contribution": 0.002364701645637537
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": 0.0011880048583861205
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 115611.97,
+          "contribution": 0.0010849526408185785
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.0007690707950755576
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.07621725006314163
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 27,
+          "contribution": -0.07010585462064826
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.05521059992925385
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.02420238074491799
+        },
+        {
+          "feature": "CreditScore",
+          "value": 639,
+          "contribution": -0.005965048364816856
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": -0.003807080508478514
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.0031355776062909303
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 125244.18,
+          "contribution": 0.002722395503439767
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.0020024529489109104
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": -0.0015154072382762656
+        },
+        {
+          "feature": "Tenure",
+          "value": 2,
+          "contribution": -0.0003731016822711014
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.07621725006314166
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.05825621975862074
+        },
+        {
+          "feature": "Age",
+          "value": 40,
+          "contribution": -0.03833147920238865
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": 0.02613469326003877
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.008613045016208501
+        },
+        {
+          "feature": "CreditScore",
+          "value": 679,
+          "contribution": -0.005612370810687623
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.002686861528543248
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.001668998547236033
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 16897.19,
+          "contribution": -0.0007017267103446855
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.00040909710623229095
+        },
+        {
+          "feature": "Tenure",
+          "value": 1,
+          "contribution": 0.0
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.21232196981063178
+    },
+    {
+      "factors": [
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.10554556988899305
+        },
+        {
+          "feature": "Age",
+          "value": 69,
+          "contribution": 0.05877635882679268
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.019948365458709184
+        },
+        {
+          "feature": "Balance",
+          "value": 105303.73,
+          "contribution": -0.014421687766246112
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.013929055940258079
+        },
+        {
+          "feature": "CreditScore",
+          "value": 476,
+          "contribution": 0.0069476266945475516
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": 0.006332737505891024
+        },
+        {
+          "feature": "Tenure",
+          "value": 1,
+          "contribution": -0.004187429297895128
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": 0.0009249372361715243
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 134260.34,
+          "contribution": 0.00030714985582312726
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.12825125514878924
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 35,
+          "contribution": -0.06471438948630194
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.05318728216724046
+        },
+        {
+          "feature": "Balance",
+          "value": 0.0,
+          "contribution": 0.03985259536763459
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.008098001505835258
+        },
+        {
+          "feature": "CreditScore",
+          "value": 602,
+          "contribution": 0.0031379433451938984
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.002387381302332033
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 22499.29,
+          "contribution": -0.0016469566592002237
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.00017023258898562818
+        },
+        {
+          "feature": "Tenure",
+          "value": 8,
+          "contribution": -0.00014356597681399255
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.0
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.2041537348617486
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 38,
+          "contribution": -0.07471337912326984
+        },
+        {
+          "feature": "Balance",
+          "value": 85982.07,
+          "contribution": -0.03660719065926002
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.02876160552911901
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.02392563389990109
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.008311701963508599
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 9238.35,
+          "contribution": -0.0034232744526373764
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0016180505571056318
+        },
+        {
+          "feature": "Tenure",
+          "value": 8,
+          "contribution": 0.00046021375963021995
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": 0.00024981163317841504
+        },
+        {
+          "feature": "CreditScore",
+          "value": 535,
+          "contribution": -0.00021919507424960304
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.1136409144929464
+    },
+    {
+      "factors": [
+        {
+          "feature": "Balance",
+          "value": 132838.07,
+          "contribution": -0.028511539840627348
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.026918487724877704
+        },
+        {
+          "feature": "Geography",
+          "value": "Spain",
+          "contribution": -0.02534728660157176
+        },
+        {
+          "feature": "Age",
+          "value": 41,
+          "contribution": -0.018873270155906837
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.011126227177038917
+        },
+        {
+          "feature": "CreditScore",
+          "value": 850,
+          "contribution": -0.00571452091978905
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 175347.28,
+          "contribution": 0.0024918259733466355
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.002284397574750101
+        },
+        {
+          "feature": "Tenure",
+          "value": 8,
+          "contribution": 0.0010802813028121484
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": -0.0002328744904011304
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.12353691974210006
+    },
+    {
+      "factors": [
+        {
+          "feature": "NumOfProducts",
+          "value": 2,
+          "contribution": -0.05127725002528117
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.022920464219604725
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.018532766441998846
+        },
+        {
+          "feature": "Age",
+          "value": 43,
+          "contribution": 0.013524155031361472
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 34888.04,
+          "contribution": -0.008172780106992836
+        },
+        {
+          "feature": "CreditScore",
+          "value": 807,
+          "contribution": -0.007042324974759518
+        },
+        {
+          "feature": "Balance",
+          "value": 105799.32,
+          "contribution": 0.005914166935199969
+        },
+        {
+          "feature": "Tenure",
+          "value": 1,
+          "contribution": 0.002273593427608141
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.0008384739865298318
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.0007884526089964733
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.13601832538821226
+    },
+    {
+      "factors": [
+        {
+          "feature": "Age",
+          "value": 54,
+          "contribution": 0.1753656204785448
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 1,
+          "contribution": -0.1337319666131778
+        },
+        {
+          "feature": "CreditScore",
+          "value": 422,
+          "contribution": 0.039379136302318186
+        },
+        {
+          "feature": "Geography",
+          "value": "France",
+          "contribution": -0.03824695888705978
+        },
+        {
+          "feature": "Balance",
+          "value": 140014.42,
+          "contribution": -0.03699290492636343
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": -0.008591122242174381
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 86350.97,
+          "contribution": -0.006191006529697793
+        },
+        {
+          "feature": "Tenure",
+          "value": 3,
+          "contribution": 0.004906753502737552
+        },
+        {
+          "feature": "Gender",
+          "value": "Male",
+          "contribution": -0.0027831321272358163
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 0,
+          "contribution": 0.0025715478479203897
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.18082240830696067
+    },
+    {
+      "factors": [
+        {
+          "feature": "Geography",
+          "value": "Germany",
+          "contribution": 0.10098732406858021
+        },
+        {
+          "feature": "NumOfProducts",
+          "value": 1,
+          "contribution": 0.06721924581443837
+        },
+        {
+          "feature": "Age",
+          "value": 39,
+          "contribution": -0.06315487039478587
+        },
+        {
+          "feature": "Balance",
+          "value": 138341.51,
+          "contribution": 0.030621935638332865
+        },
+        {
+          "feature": "IsActiveMember",
+          "value": 0,
+          "contribution": 0.027799615945512304
+        },
+        {
+          "feature": "EstimatedSalary",
+          "value": 50072.94,
+          "contribution": -0.005166285163167206
+        },
+        {
+          "feature": "CreditScore",
+          "value": 764,
+          "contribution": 0.0029814983587871857
+        },
+        {
+          "feature": "Tenure",
+          "value": 9,
+          "contribution": 0.0014287780845768027
+        },
+        {
+          "feature": "Gender",
+          "value": "Female",
+          "contribution": -0.0008820861406995117
+        },
+        {
+          "feature": "HasCrCard",
+          "value": 1,
+          "contribution": 0.000678937067704954
+        }
+      ],
+      "baseline": 0.18513644150114872,
+      "probability": 0.34765053478042884
+    }
+  ],
+  "importance": [
+    {
+      "feature": "CreditScore",
+      "mean_abs_shap": 0.010174724820091085
+    },
+    {
+      "feature": "Age",
+      "mean_abs_shap": 0.07340533201535712
+    },
+    {
+      "feature": "Tenure",
+      "mean_abs_shap": 0.002206641587218295
+    },
+    {
+      "feature": "Balance",
+      "mean_abs_shap": 0.02169907335052939
+    },
+    {
+      "feature": "NumOfProducts",
+      "mean_abs_shap": 0.05875222596256924
+    },
+    {
+      "feature": "HasCrCard",
+      "mean_abs_shap": 0.0013996973244159443
+    },
+    {
+      "feature": "IsActiveMember",
+      "mean_abs_shap": 0.03403898456245409
+    },
+    {
+      "feature": "EstimatedSalary",
+      "mean_abs_shap": 0.0038482902462875514
+    },
+    {
+      "feature": "Geography",
+      "mean_abs_shap": 0.025874293604890797
+    },
+    {
+      "feature": "Gender",
+      "mean_abs_shap": 0.0016842573080009609
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "url": "https://churnguard-ai-omega.vercel.app",
+  "verified_at": "2026-11-07T14:42:55.085256+00:00",
+  "database": "postgresql",
+  "model_version": "ee2a5c9d8daf-v1",
+  "checks": [
+    "Frontend proxy, PostgreSQL and saved model readiness",
+    "Registration and password login through frontend",
+    "PostgreSQL persistence, demo import, analytics and filters",
+    "Real saved-model churn prediction and history persistence",
+    "All six LangGraph agents, exact-model SHAP and persisted reporting",
+    "What-if simulation without changing customer records",
+    "Retention recommendation generation and human-review persistence",
+    "Six-model comparison, SHAP summary, group audits and report data",
+    "Cross-account customer and report isolation",
+    "Persistent JWT logout revocation"
+  ],
+  "count": 10,
+  "llm_mode": "deterministic evidence report",
+  "note": "Generated QA accounts contain only public academic demonstration records. No real customer or account action occurred."
+}

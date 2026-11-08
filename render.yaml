@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: churnguard-api
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt -c backend/requirements-lock.txt
+    preDeployCommand: cd backend && flask --app run db upgrade
+    startCommand: cd backend && gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 run:app
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: DATABASE_URL
+        fromDatabase:
+          name: churnguard-db
+          property: connectionString
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: FRONTEND_ORIGIN
+        sync: false
+databases:
+  - name: churnguard-db
+    databaseName: churnguard
+    user: churnguard
